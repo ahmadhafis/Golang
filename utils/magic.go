@@ -42,3 +42,21 @@ func MagicName (n int) []string {
 	return names
 }
 
+func MagicTria(n int) []int {
+	
+	result := make([]int, n)
+	
+	for i := 0; i < n; i++ {
+		result[i] = i + 1
+	}
+	
+	return result
+}
+
+type MagicNumber struct{
+	num int
+}
+
+func (m *MagicNumber) Multiply(n int){
+	m.num *= n
+}

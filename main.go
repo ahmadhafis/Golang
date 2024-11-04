@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	n := 3
+	n := 4
 
 	fmt.Println("Welcome")
 	fmt.Println("Nilai MagicSum: ", utils.MagicSum(n))
@@ -17,4 +17,8 @@ func main() {
 	fmt.Println("Nilai MagicTria: ", utils.MagicTria(n))
 
 
+	number := 5
+	utils.MagicChange(&number)
+	fmt.Println("MagicChange:", number)
+	
 }

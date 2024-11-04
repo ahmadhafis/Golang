@@ -60,3 +60,7 @@ type MagicNumber struct{
 func (m *MagicNumber) Multiply(n int){
 	m.num *= n
 }
+
+func MagicChange(n *int) {
+	*n *= 2
+}
